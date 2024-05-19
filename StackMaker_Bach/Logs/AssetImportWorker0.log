@@ -1,0 +1,582 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.8f1 (b5eafc012955) revision 11922172'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16088 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/StackMaker_An_UnityGameProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50120
+Successfully changed project path to: D:/Unity/StackMaker_An_UnityGameProject
+D:/Unity/StackMaker_An_UnityGameProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19752] Host "[IP] 192.168.1.246 [Port] 0 [Flags] 2 [Guid] 2486773752 [EditorId] 2486773752 [Version] 1048832 [Id] WindowsEditor(7,Admin-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19752] Host "[IP] 192.168.1.246 [Port] 0 [Flags] 2 [Guid] 2486773752 [EditorId] 2486773752 [Version] 1048832 [Id] WindowsEditor(7,Admin-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 4.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.8f1 (b5eafc012955)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/StackMaker_An_UnityGameProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3976 MB
+    Driver:   31.0.15.3713
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004716 seconds.
+- Loaded All Assemblies, in  0.604 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.468 seconds
+Domain Reload Profiling: 1071ms
+	BeginReloadAssembly (172ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (264ms)
+		LoadAssemblies (175ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (257ms)
+			TypeCache.Refresh (254ms)
+				TypeCache.ScanAssembly (230ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (469ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (375ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (131ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (158ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.910 seconds
+Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.715 seconds
+Domain Reload Profiling: 1624ms
+	BeginReloadAssembly (174ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (647ms)
+		LoadAssemblies (469ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (278ms)
+			TypeCache.Refresh (243ms)
+				TypeCache.ScanAssembly (215ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (715ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (554ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (399ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3306 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (130.1 KB). Loaded Objects now: 3794.
+Memory consumption went from 143.5 MB to 143.3 MB.
+Total: 3.150700 ms (FindLiveObjects: 0.237400 ms CreateObjectMapping: 0.112300 ms MarkObjects: 2.665200 ms  DeleteObjects: 0.133700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 308480.168506 seconds.
+  path: Assets/StackScript
+  artifactKey: Guid(7691d301a76bbe441958d90eb42172ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StackScript using Guid(7691d301a76bbe441958d90eb42172ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50983ccd2cfc6d04fcd7ea7781430588') in 0.002848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.427 seconds
+Refreshing native plugins compatible for Editor in 1.95 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.758 seconds
+Domain Reload Profiling: 1185ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (224ms)
+		LoadAssemblies (276ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (759ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (452ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (319ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3283 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (101.7 KB). Loaded Objects now: 3809.
+Memory consumption went from 138.2 MB to 138.1 MB.
+Total: 4.241100 ms (FindLiveObjects: 0.388700 ms CreateObjectMapping: 0.142000 ms MarkObjects: 3.558300 ms  DeleteObjects: 0.150600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.424 seconds
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.871 seconds
+Domain Reload Profiling: 1294ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (218ms)
+		LoadAssemblies (272ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (872ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (485ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (331ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3284 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (101.8 KB). Loaded Objects now: 3824.
+Memory consumption went from 138.5 MB to 138.4 MB.
+Total: 3.151500 ms (FindLiveObjects: 0.212200 ms CreateObjectMapping: 0.089300 ms MarkObjects: 2.795100 ms  DeleteObjects: 0.053500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 80.753545 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/bg1.png
+  artifactKey: Guid(a8d00b68e9ec2be499bbf9b182b47deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/bg1.png using Guid(a8d00b68e9ec2be499bbf9b182b47deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba67e1b4502b72fa7ce2ed733c3dbff') in 0.099361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.766979 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/bg_0.png
+  artifactKey: Guid(0af07d5f7830b0449b48b72936fd0393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/bg_0.png using Guid(0af07d5f7830b0449b48b72936fd0393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489f837e88e663358f8b09cc27d874f0') in 0.034441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003471 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/bg_2.png
+  artifactKey: Guid(1a460dec93890b047be5a2bcd7f9706d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/bg_2.png using Guid(1a460dec93890b047be5a2bcd7f9706d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc8e3f152f83583a8a7fe216234bcec') in 0.040512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.016724 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/bg_3.png
+  artifactKey: Guid(d6d2660857c24434b9129d5d34200c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/bg_3.png using Guid(d6d2660857c24434b9129d5d34200c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97465dc49b43a4a1f2b62cc4004b5914') in 0.048659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005773 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/bg_5.png
+  artifactKey: Guid(f217a6fcdcb51f14c85ce1dc8b843fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/bg_5.png using Guid(f217a6fcdcb51f14c85ce1dc8b843fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef9f6ec14c6583d7317900f9b6a9749') in 0.032271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 31.366256 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/hei.png
+  artifactKey: Guid(a310ea17e30330f47b2561898aef5f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/hei.png using Guid(a310ea17e30330f47b2561898aef5f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161086921fd1d63c000eb77302d4c16f') in 0.035370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.758255 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/guanbi_2.png
+  artifactKey: Guid(ea406f9f482320046abf6803cef0358e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/guanbi_2.png using Guid(ea406f9f482320046abf6803cef0358e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55bc64a73a171cc60d2907a37cea7ce0') in 0.027390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005123 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/guanbi_1.png
+  artifactKey: Guid(0ab8bcea955433144a89ee1ce0989b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/guanbi_1.png using Guid(0ab8bcea955433144a89ee1ce0989b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8cf990f04813b1cfb3a4a23e6362f6') in 0.029272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.025556 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/guanbi.png
+  artifactKey: Guid(7d95ff0c4692b48439421a9f83070060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/guanbi.png using Guid(7d95ff0c4692b48439421a9f83070060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d811bad1da473148ad140f3166b88f') in 0.024580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.037076 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/gou.png
+  artifactKey: Guid(85bfb19ab153f894cacaad1603f48da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/gou.png using Guid(85bfb19ab153f894cacaad1603f48da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d616c80548fba73ee87547fb042b64') in 0.021605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/goudi.png
+  artifactKey: Guid(03e8f3ed6f96a0149ab771625e1a8e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/goudi.png using Guid(03e8f3ed6f96a0149ab771625e1a8e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e160dc2dea0c6d296823999b6fa3460') in 0.025043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.637577 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/getmore2.png
+  artifactKey: Guid(57f3564d81b98e34c93206f3c7641741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/getmore2.png using Guid(57f3564d81b98e34c93206f3c7641741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a305234ebaab90ea1c795e919bc15b1b') in 0.039746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/gb.png
+  artifactKey: Guid(18088b71b5b67f5479551f1555613800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/gb.png using Guid(18088b71b5b67f5479551f1555613800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758ff7d7864446ace4b3e7a4849d505c') in 0.030118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.021143 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/fbzs.png
+  artifactKey: Guid(51ed95cfa8e915c4dad4ac3465231eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/fbzs.png using Guid(51ed95cfa8e915c4dad4ac3465231eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3abf6042251cabbd6dca2d995ac11ba4') in 0.036750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.019374 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/fanhui.png
+  artifactKey: Guid(1b2540b2057f608429778b97ffe2451e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/fanhui.png using Guid(1b2540b2057f608429778b97ffe2451e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2548cce3cdeb61c56cccd44772ee36d3') in 0.028856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/Evaluate us.png
+  artifactKey: Guid(2af3b3c1f75be2a4883d98284cd56741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/Evaluate us.png using Guid(2af3b3c1f75be2a4883d98284cd56741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046bb00d62d1064f571a4e5bb38e9365') in 0.027602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.265095 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/DropdownArrow.png
+  artifactKey: Guid(9401f570ad52afa41abc0d1cf2d66326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/DropdownArrow.png using Guid(9401f570ad52afa41abc0d1cf2d66326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa862f1be40facae7ae78ae598feffe3') in 0.044991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.064656 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/di_6.png
+  artifactKey: Guid(fbbfd4a598487ea47b84624c5dc995d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/di_6.png using Guid(fbbfd4a598487ea47b84624c5dc995d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236ba0d28962a240f10ee7f4802d2c19') in 0.031842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.267384 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/di_5.png
+  artifactKey: Guid(1c6dbaa2caab466468a91eda085fd85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/di_5.png using Guid(1c6dbaa2caab466468a91eda085fd85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f512a2e2a590e942ea7c3a3ebaa2aa') in 0.031664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004484 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/di_2.png
+  artifactKey: Guid(7a5a494e1a33e50448dde45b9b3e6871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/di_2.png using Guid(7a5a494e1a33e50448dde45b9b3e6871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ddbc7972f6680fc3e009d3a1781822') in 0.029456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.033808 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/di12.png
+  artifactKey: Guid(2d65e4475c75bc64b9c5c68975124ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/di12.png using Guid(2d65e4475c75bc64b9c5c68975124ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90cf0488c7b0452c1ad6529d5a294886') in 0.028654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/di_0.png
+  artifactKey: Guid(7bc02cc76799b02419bdfe7a17e3fe50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/di_0.png using Guid(7bc02cc76799b02419bdfe7a17e3fe50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f15fc3fdb492cd62163eb0daad51b5') in 0.021296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013544 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/di10.png
+  artifactKey: Guid(da893ce6b99a5704b883a75b46f8340b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/di10.png using Guid(da893ce6b99a5704b883a75b46f8340b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768aa6d1544bc221194502e0a2c4fcbf') in 0.035855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.212507 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/di3_0.png
+  artifactKey: Guid(d5f9af984cf333d479497d704ea1d263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/di3_0.png using Guid(d5f9af984cf333d479497d704ea1d263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4271375fa3bfffdc5c80e40c2ad5dc88') in 0.024824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/di9.png
+  artifactKey: Guid(a33be6e9373de98478cc70fac0e67da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/di9.png using Guid(a33be6e9373de98478cc70fac0e67da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f364abd07b17486f30ad8634a8d91764') in 0.027787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/di2_1.png
+  artifactKey: Guid(b1c368ae889f1c94884cedaf0eb8bedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/di2_1.png using Guid(b1c368ae889f1c94884cedaf0eb8bedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ba04fcb6817ebcfa2c240aeb863ee3') in 0.032785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/di2_3.png
+  artifactKey: Guid(3db49bfa069917443b50c725e65ab56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/di2_3.png using Guid(3db49bfa069917443b50c725e65ab56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7055b8e085cb586c3dab2de45a13fd') in 0.033735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.774054 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/bg_6.png
+  artifactKey: Guid(95ee0afae1d235644a8927c9bac8f9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/bg_6.png using Guid(95ee0afae1d235644a8927c9bac8f9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cab07006a5708a1084cf75518275ca') in 0.049180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/Checkmark.png
+  artifactKey: Guid(f4c4a76e5b0320d4783c487e3a1250b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/Checkmark.png using Guid(f4c4a76e5b0320d4783c487e3a1250b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8c2dd1b743fc89f3d3a48fa82d0a9f') in 0.027995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.075653 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/di2_4.png
+  artifactKey: Guid(7acf218f2a993004fa028d174d936d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/di2_4.png using Guid(7acf218f2a993004fa028d174d936d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0470a7487cb247169fb3beba3b17de6') in 0.026188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 68.839660 seconds.
+  path: Assets/Assets/_MazeMakerAssets 1/Texture2D/cheng.png
+  artifactKey: Guid(8922447deece7494c9005f52c7839335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_MazeMakerAssets 1/Texture2D/cheng.png using Guid(8922447deece7494c9005f52c7839335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12512ededdb37552bb15252ccc076d87') in 0.043013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 198.117374 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30796653c4dfc1f2480bca9d8b60487c') in 0.001066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
